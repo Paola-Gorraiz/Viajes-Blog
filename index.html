@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <title>Blog de Viajes - Paola Gorraiz</title>
+	
+	<!--css -->
+	<link rel="stylesheet" href="styles/style.css">
+
+    <!--rss-->
+    <link rel="alternate" type="RSS.xml" title="RSS - Blog de Viajes" href="RSS.xml" />
+	
+	<!--favicon-->
+	<link rel="shortcut icon" href="img/logo.ico"/>
+	
+	<!--etiquetas -->
+	<meta name="keyword" content="viajes, vacaciones, escapadas">
+	<meta name="description" content="Viajar es la única cosa que compras y te hace más rico.">
+	<meta name="author" content="Paola Gorraiz">
+	
+</head>
+<body>
+<div id="contenedor">
+    <!-- Cabecera -->
+    <header>
+        <h1>Blog de Viajes</h1>
+        <p>Autor: Paola Gorraiz</p>
+        <a href="RSS.xml">
+            <img src="img/pngtree-last-minute-airline-icon-reservation-fly-tourist-vector-png-image_16096932.jpg" alt="RSS Feed" width="32" height="32">
+          </a>
+          
+    </header>
+
+    <!-- Zona de Navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Nosotros.html">Sobre Nosotros</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="https://www.logitravel.com/?source=bing&campaignId=506192877&AdGroupID=1266639052175046&MatchType=p&Keyword=agencia%20de%20viajes&Device=c&TargetId=kwd-79165446817943:loc-170&utm_campaign=S-LG-ES-HOM-NIC-Agencia%20De%20Viajes%20(0000,1)&utm_content=Agencia%20de%20Viajes_NIC_NIC%20Generic%20Theme%20(NIC,0000,1)&utm_term=agencia%20de%20viajes&utm_id=8&iclid=1-22b671bf-6bf8-354d-804d-85f86bbf71b6-a151&utm_medium=389098%7C%7CBing+-+UID+389098&utm_source=Afiliado&gclsrc=" target="_blank">Enlace Externo</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section>
+            <h2>Sobre el Blog</h2>
+            <p><em>Soy una apasionada de los viajes y he decidido compartir mis experiencias a través de este blog.</em> El objetivo es inspirar a otros a explorar el mundo. ¡Espero que disfrutes las recomendaciones y relatos!</p>
+
+            <!-- Cita -->
+            <blockquote>
+                "Viajar es la única cosa que compras y te hace más rico." – Desconocido
+            </blockquote>
+
+            <!-- Listas -->
+            <h3>Destinos Recomendados</h3>
+            <ul>
+                <li>París</li>
+                <li>Tokio</li>
+                <li>Nueva York</li>
+            </ul>
+
+            <h3>Lista Ordenada de Tareas</h3>
+            <ol>
+                <li>Preparar maletas</li>
+                <li>Reservar alojamiento</li>
+                <li>Consultar clima</li>
+            </ol>
+
+            <h3>Lista de Definición de Lugares</h3>
+            <dl>
+                <dt>París</dt>
+                <dd>La ciudad del amor, famosa por la Torre Eiffel.</dd>
+                <dt>Tokio</dt>
+                <dd>La vibrante capital de Japón, llena de cultura y tecnología.</dd>
+                <dt>Nueva York</dt>
+                <dd>La ciudad que nunca duerme, famosa por sus rascacielos.</dd>
+            </dl>
+
+            <!-- Tabla -->
+            <h3>Tabla de Destinos y Costos</h3>
+            <table>
+                <tr>
+                    <th>Destino</th>
+                    <th>País</th>
+                    <th>Costo Aprox. (USD)</th>
+                </tr>
+                <tr>
+                    <td>París</td>
+                    <td>Francia</td>
+                    <td>1500</td>
+                </tr>
+                <tr>
+                    <td>Tokio</td>
+                    <td>Japón</td>
+                    <td>2000</td>
+                </tr>
+                <tr>
+                    <td>Nueva York</td>
+                    <td>Estados Unidos</td>
+                    <td>1800</td>
+                </tr>
+            </table>
+
+            <!-- Elementos Multimedia -->
+            <h3>Galería de Imágenes</h3>
+            <figure>
+            <img src="img/paris.jpg" alt="Paris">
+                <figcaption>París - La ciudad del amor</figcaption>
+            </figure>
+
+            <h3>Video de Viaje</h3>
+            <video width="600" controls>
+				<!-- video Externo
+				<source src="https://cdn.pixabay.com/video/2024/10/20/237279_large.mp4" type="video/mp4"-->
+                	
+                <source src="img/Video.mp4" type="video/mp4">
+                Tu navegador no soporta el video.
+            </video>
+
+            <h3>Sonido de la Naturaleza</h3>
+            <audio controls>
+                <source src="Naturaleza.mp3" type="audio/mp3">
+                Tu navegador no soporta el audio.
+            </audio>
+        </section>
+
+        <!-- Formulario de Contacto -->
+        <section>
+            <h2>Formulario de Contacto</h2>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="comment">Comentario:</label><br>
+                <textarea id="comment" name="comment" rows="4" cols="50" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+				<br>
+				<br>
+				<br>
+				<br>
+            </form>
+        </section>
+    </main>
+	
+
+    <!-- Pie de Página -->
+    <footer>
+        <small>&copy; 2025 Blog de Viajes. Todos los derechos reservados.</small>
+		<br>
+        <a href="#top">Volver arriba</a>
+    </footer>
+</div>
+</body>
+</html>
+
